@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
         
-        <title>Flexbox project &mdash; Your all-in-one booking app</title>
+        <title>Flexbox project &mdash; Your all-in-one opera app</title>
     </head>
     <body>
         <div class="container">
@@ -16,7 +16,7 @@
                 <img src="img/logo.png" alt="logo" class="logo">
 
                 <form action="#" class="search">
-                    <input type="text" class="search__input" placeholder="Search hotels">
+                    <input type="text" class="search__input" placeholder="Search operas">
                     <button class="search__button">
                         <svg class="search__icon">
                             <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
@@ -51,7 +51,7 @@
                                 <svg class="side-nav__icon">
                                     <use xlink:href="img/sprite.svg#icon-home"></use>
                                 </svg>
-                                <span>Hotel</span>
+                                <span>Opera Houses</span>
                             </a>
                         </li>
                         <li class="side-nav__item">
@@ -59,7 +59,7 @@
                                 <svg class="side-nav__icon">
                                     <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
                                 </svg>
-                                <span>Flight</span>
+                                <span>Composers</span>
                             </a>
                         </li>
                         <li class="side-nav__item">
@@ -67,7 +67,7 @@
                                 <svg class="side-nav__icon">
                                     <use xlink:href="img/sprite.svg#icon-key"></use>
                                 </svg>
-                                <span>Car Rental</span>
+                                <span>Key scenes</span>
                             </a>
                         </li>
                         <li class="side-nav__item">
@@ -75,7 +75,7 @@
                                 <svg class="side-nav__icon">
                                     <use xlink:href="img/sprite.svg#icon-map"></use>
                                 </svg>
-                                <span>Tours</span>
+                                <span>Librettos</span>
                             </a>
                         </li>
                     </ul>
@@ -85,17 +85,58 @@
                     </div>
                 </nav>
 
-
-
-
-
-
-
-
-
-
                 <main class="hotel-view">
-                    Hotel view
+                    <div class="gallery">
+                        <figure class="gallery__item">
+                            <img src="img/opera-1.png" alt="Opera 1" class="gallery__photo">
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/opera-2.png" alt="Opera 2" class="gallery__photo">
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/opera-3.png" alt="Opera 3" class="gallery__photo">
+                        </figure>
+                    </div>
+
+                    <div class="overview">
+                        <h1 class="overview__heading">
+                            La Scala
+                        </h1>
+
+                        <div class="overview__stars">
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                        </div>
+
+                        <div class="overview__location">
+                            <svg class="overview__icon-location">
+                                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                            </svg>
+                            <button class="btn-inline">Milano, Italy</button>
+                        </div>
+
+                        <div class="overview__rating">
+                            <div class="overview__rating-average">8.6</div>
+                            <div class="overview__rating-count">429 votes</div>
+                        </div>
+                    </div>
+
+
+
+
                 </main>
             </div>
         </div>
