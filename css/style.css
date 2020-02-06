@@ -33,7 +33,7 @@ body {
   font-weight: 400;
   line-height: 1.6;
   color: var(--grey-dark-2);
-  background-image: linear-gradient(to right bottom, #1b0708, var(--color-primary-dark));
+  background-image: linear-gradient(to right bottom, #02040a, #080911);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh; }
